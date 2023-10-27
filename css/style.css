@@ -74,6 +74,11 @@
     display: flex;
     justify-content: space-between;
     padding-inline-start: 100px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px 10px rgb(43, 41, 41);
+    
 }
 
 .div-piccolo{
@@ -82,6 +87,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    
     
 }
 
@@ -95,6 +101,7 @@ button{
      margin: 4px 2px;
     cursor: pointer;
     flex-wrap: wrap;
+    
 }
 
 
