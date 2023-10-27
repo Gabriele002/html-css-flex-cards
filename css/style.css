@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;        
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;        
 }
 
-.tx-red{
+.tx-font-red{
     color: red;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .tx-center{
@@ -31,16 +33,21 @@
 
 .img{
     width: 100px;
+    border-radius: 10px;
 }
 
 .bg-red{
     background-color: red;
 }
+
+
 .bg-black{
     background-color: black;
     width: 350px;
     height: 100px;
     display: flex;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgb(68, 68, 68)
     
     
 
@@ -55,8 +62,10 @@
     flex-direction: column;
     justify-content: space-around;
     margin-left: 8px;
+    padding: 5px;
 
 }
+
 
 
 
